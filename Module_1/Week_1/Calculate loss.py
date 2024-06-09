@@ -5,7 +5,7 @@ def MAE(predict, target):
     return abs(predict - target)
 
 def MSE(predict, target):
-    return (predict - target)**2
+    return (predict - target) ** 2
 
 def compute_lossfunction():
    
